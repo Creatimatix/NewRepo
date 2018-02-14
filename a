@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+<com.izforge.izpack.panels.CheckedHelloPanel id="UNKNOWN (com.izforge.izpack.panels.CheckedHelloPanel)"/>
+<com.izforge.izpack.panels.HTMLInfoPanel id="UNKNOWN (com.izforge.izpack.panels.HTMLInfoPanel)"/>
+<com.izforge.izpack.panels.HTMLLicencePanel id="UNKNOWN (com.izforge.izpack.panels.HTMLLicencePanel)"/>
+<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+<installpath>D:\IKANALM</installpath>
+</com.izforge.izpack.panels.TargetPanel>
+<com.izforge.izpack.panels.PacksPanel id="UNKNOWN (com.izforge.izpack.panels.PacksPanel)">
+<pack index="0" name="Base" selected="true"/>
+<pack index="1" name="Demo projects for windows" selected="true"/>
+<pack index="2" name="Windows Installation configuration" selected="true"/>
+</com.izforge.izpack.panels.PacksPanel>
+<com.izforge.izpack.panels.JDKPathPanel id="UNKNOWN (com.izforge.izpack.panels.JDKPathPanel)"/>
+<be.ikan.tools.izpack.panels.DemoUserInputPanel id="UNKNOWN (be.ikan.tools.izpack.panels.DemoUserInputPanel)">
+<userInput>
+<entry key="alm.karaf.rmiServerPort" value="44444"/>
+<entry key="alm.appserver.port" value="9080"/>
+<entry key="alm.appserver.stopport" value="8015"/>
+<entry key="alm.karaf.rmiRegistryPort" value="1099"/>
+<entry key="alm.agent.port" value="20020"/>
+<entry key="alm.server.port" value="20021"/>
+<entry key="alm.karaf.sshPort" value="8101"/>
+</userInput>
+</be.ikan.tools.izpack.panels.DemoUserInputPanel>
+<com.izforge.izpack.panels.SummaryPanel id="UNKNOWN (com.izforge.izpack.panels.SummaryPanel)"/>
+<com.izforge.izpack.panels.InstallPanel id="UNKNOWN (com.izforge.izpack.panels.InstallPanel)"/>
+<com.izforge.izpack.panels.ShortcutPanel id="UNKNOWN (com.izforge.izpack.panels.ShortcutPanel)">
+<programGroup name="IKAN ALM Demo 5.7"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="This starts IKAN ALM Demo 5.7" encoding="" group="true" icon="D:\IKANALM\system\images\scm4all.ico" iconIndex="0" initialState="1" mimetype="" name="Start IKAN ALM Demo server" target="D:\IKANALM\startDemo.cmd" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory="D:\IKANALM"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="This stops IKAN ALM Demo 5.7" encoding="" group="true" icon="D:\IKANALM\system\images\scm4all.ico" iconIndex="0" initialState="1" mimetype="" name="Stop IKAN ALM Demo server" target="D:\IKANALM\stopDemo.cmd" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory="D:\IKANALM"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="This will open the IKAN ALM 5.7 documentation" encoding="" group="true" icon="" iconIndex="0" initialState="1" mimetype="" name="IKAN ALM Documentation" target="D:\IKANALM\doc\ALMUserGuide_EN.pdf" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory="D:\IKANALM"/>
+<shortcut KdeSubstUID="false" categories="" commandLine="" createForAll="false" description="This will open the IKAN ALM 5.7 url" encoding="" group="true" icon="D:\IKANALM\system\images\scm4all.ico" iconIndex="0" initialState="1" mimetype="" name="Open IKAN ALM in browser" target="D:\IKANALM\alm.url" terminal="" terminalOptions="" tryexec="" type="1" url="" usertype="0" workingDirectory="D:\IKANALM"/>
+</com.izforge.izpack.panels.ShortcutPanel>
+<be.ikan.tools.izpack.panels.ALMFinishPanel id="UNKNOWN (be.ikan.tools.izpack.panels.ALMFinishPanel)"/>
+</AutomatedInstallation>
